@@ -1,7 +1,9 @@
 One more implementation of Dependency Injection pattern 
-Supports Transient and Singleton scopes. 
-Supports scopes
-
+Supported scopes
+-Transient
+-Singleton
+Exmple of usage 
+```csharp
  ContainerBuilder cb = new ContainerBuilder();
             cb.Register<FirstService>();
 
@@ -16,3 +18,4 @@ Supports scopes
                     Assert.NotEqual(fs1, fs2);
                 }
             }
+```
