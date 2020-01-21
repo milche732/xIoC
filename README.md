@@ -1,10 +1,10 @@
-#One more implementation of Dependency Injection pattern 
+# One more implementation of Dependency Injection pattern 
 
-##Supported scopes
+## Supported scopes
 - Transient
 - Singleton
 
-##Exmple of usage 
+## Exmple of usage 
 ```csharp
 ContainerBuilder cb = new ContainerBuilder();
 cb.Register<FirstService>();
