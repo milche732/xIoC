@@ -1,10 +1,13 @@
 # One more implementation of Dependency Injection pattern 
 
-## Supported scopes
+Current implementation provides basic functionality for DI. Currently supports Transient and Singlton object lifecycles.
+You can create a new scope by calling NewScope() method. When scope disposed all resolved objects within its context will be disposed automatically.
+
+### Supported scopes
 - Transient
 - Singleton
 
-## Exmple of usage 
+### Exmple of usage 
 ```csharp
 ContainerBuilder cb = new ContainerBuilder();
 cb.Register<FirstService>();
