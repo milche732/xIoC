@@ -1,6 +1,6 @@
 # One more implementation of Dependency Injection pattern 
 
-Current implementation provides basic functionality for DI. Currently supports Transient and Singlton object lifecycles.
+Current implementation provides basic functionality of DI pattern. Currently supported Transient and Singlton lifecycles.
 You can create a new scope by calling NewScope() method. When scope disposed all resolved objects within its context will be disposed automatically.
 
 ### Supported scopes
